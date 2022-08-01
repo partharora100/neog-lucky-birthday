@@ -15,7 +15,9 @@ h1{
 }
 
 label {
+  display: block;
   font-size: 20px;
+  text-align: center;
 }
 label span{
   color: lightseagreen;
@@ -45,4 +47,9 @@ label span{
   font-weight: bold;
   text-align: center;
   margin-top: 32px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
 }
