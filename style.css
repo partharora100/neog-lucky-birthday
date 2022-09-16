@@ -7,7 +7,7 @@ article {
   margin: auto;
 }
 
-h1{
+h1 {
   color: lightseagreen;
   font-size: 40px;
   margin-bottom: 32px;
@@ -19,7 +19,7 @@ label {
   font-size: 20px;
   text-align: center;
 }
-label span{
+label span {
   color: lightseagreen;
   font-weight: bold;
 }
@@ -33,7 +33,6 @@ label span{
   margin-top: 8px;
 }
 
-
 .button {
   font-size: 20px;
   padding: 12px 16px;
@@ -42,14 +41,52 @@ label span{
   background-color: lightseagreen;
   color: white;
 }
-.message{
+.message {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   margin-top: 32px;
 }
 
-.box{
+.box {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  margin-top: 120px;
+  background-color: lightseagreen;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  color: white;
+}
+
+.socials-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.socials p {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.line {
+  margin-bottom: 12px;
 }

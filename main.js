@@ -15,13 +15,26 @@ function hideMessage() {
   message.textContent = "";
 }
 
+const checkLuckyNumber = function (num) {
+  if (num > 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
 const checkBirthday = function () {
   const dob = inputDate.value;
   const number = inputNumber.value;
   const dateSum = datetoSum(dob);
+
+  if (!checkLuckyNumber(Number(number))) {
+    showMessage("Lucky number can't be less than 0");
+    return;
+  }
   if (dob && number) {
     if (dateSum % Number(number) === 0) {
-      showMessage(`The birthday is lukcy🥳 `);
+      showMessage(`The birthday is lucky🥳 `);
     } else {
       showMessage(`Your birthday is not lucky🥺`);
     }
