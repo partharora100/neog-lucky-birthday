@@ -1,4 +1,6 @@
 # neog-lucky-birthday
+![image](https://user-images.githubusercontent.com/105020410/190888587-680a7039-0742-4824-a5e7-465ef37ec169.png)
+
 
 This app tells user whether his/her birthday is lucky based on a simple logic
 
